@@ -108,6 +108,7 @@ th{
     width: 100%;
     background-color: white;
     border-radius: 1rem;
+    max-width: 800px;
 }
 
 img {
