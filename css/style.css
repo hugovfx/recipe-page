@@ -1,4 +1,12 @@
-/* Estilo general */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body {
     background-color: hsl(30, 54%, 90%);
     display: flex;
@@ -7,54 +15,65 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-    font-family: 'Outfit', sans-serif; /* Fuente predeterminada */
+    font-family: 'Outfit', sans-serif;
 }
 
-/* Estilo de los párrafos */
 p {
     font-size: 16px;
 }
 
-/* Fuentes para p y li con Outfit */
 p, li {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
 }
 
-/* Fuentes para h1 con Young Serif */
 h1 {
     font-family: 'Young Serif', serif;
     font-weight: 700;
 }
 
-/* Fuentes para h2 con Young Serif */
 h2 {
     color: hsl(14, 45%, 36%);
     font-family: 'Young Serif', serif;
+    font-size: 30px;
 }
 
-/* Estilos específicos de h3 */
 h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: hsl(332, 51%, 32%);
 }
 
-/* Otros estilos */
-ul {
-    padding-left: 25px;
+ul, ol {
+    text-align: left;
+    padding-left: 20px;
 }
 
 ul li {
     list-style: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+ol li {
+    padding-left: 20px;
 }
 
 ol li::marker {
     font-weight: bold;
 }
 
+ul li::marker{
+    font-size: 0.8em;
+}
+
 li::marker {
     color: hsl(14, 45%, 36%);
+}
+
+li{
+    margin-left: 0rem !important;
+    margin: 1rem;
 }
 
 tr {
@@ -71,13 +90,14 @@ th, td {
     text-align: left;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
+th{
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+.th-bold{
+    font-weight: bold !important;
+    color: hsl(14, 45%, 36%) !important;
 }
 
 .content {
@@ -107,4 +127,9 @@ img {
     img {
         border-radius: 1rem;
     }
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid hsl(30, 18%, 87%);
 }
