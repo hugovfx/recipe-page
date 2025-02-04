@@ -30,7 +30,7 @@ The designs were created to the following widths:
 - Font size (paragraph): 16px
 
 ### Fonts
-
+font-family: 'Young Serif', serif;
 - Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
 - Weights: 400
 

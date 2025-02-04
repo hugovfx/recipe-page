@@ -1,3 +1,104 @@
-body{
-    
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+img{
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    border-radius: 0rem;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 40%;
+        margin-top: 8rem;
+        padding: 3rem;
+    }
+
+    img{
+        border-radius: 1rem;
+    }
+}
+
+
+
+p{
+    font-size: 16px;
+}
+
+p,li{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;  
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    list-style: disc;
+}
+
+ol li::marker{
+    font-weight: bold;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+
+  /* Estilo adicional para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
